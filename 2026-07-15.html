@@ -1,0 +1,321 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="2026-07-15 AI 개발 뉴스">
+    <title>2026-07-15 AI 개발 뉴스</title>
+    <style>
+      :root { color-scheme: light; font-family: Inter, Pretendard, "Noto Sans KR", system-ui, sans-serif; background: #f7f7f5; color: #171715; }
+      * { box-sizing: border-box; }
+      body { margin: 0; }
+      a { color: inherit; }
+      .shell { width: min(960px, calc(100% - 32px)); margin: 0 auto; }
+      header { border-bottom: 1px solid #d7d7d2; padding: 48px 0 30px; }
+      .eyebrow { margin: 0 0 8px; color: #047857; font-size: 14px; font-weight: 700; }
+      h1 { margin: 0; font-size: 40px; line-height: 1.15; }
+      .meta { display: flex; flex-wrap: wrap; gap: 8px 18px; margin: 16px 0 0; color: #686862; font-size: 14px; }
+      main { padding-bottom: 64px; }
+      article { display: grid; grid-template-columns: minmax(0, 1fr) 132px; gap: 24px; padding: 30px 0; border-bottom: 1px solid #deded9; }
+      .source { margin: 0 0 8px; color: #047857; font-size: 13px; font-weight: 700; }
+      h2 { margin: 0; font-size: 22px; line-height: 1.35; }
+      h2 a { text-decoration: none; }
+      h2 a:hover { text-decoration: underline; text-decoration-color: #10b981; text-underline-offset: 4px; }
+      .summary { margin: 14px 0 0; color: #3f3f3b; line-height: 1.75; }
+      .detail { margin-top: 20px; }
+      .detail h3 { margin: 0 0 6px; font-size: 14px; }
+      .detail p { margin: 0; color: #52524d; line-height: 1.7; }
+      .keywords { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 18px; }
+      .keyword { border: 1px solid #cecec8; padding: 4px 7px; color: #4b4b46; font-size: 12px; }
+      .aside { color: #62625c; font-size: 13px; }
+      .aside p { margin: 0 0 9px; }
+      .score { color: #047857; font-weight: 700; }
+      .source-link { display: inline-block; margin-top: 8px; font-weight: 700; text-underline-offset: 3px; }
+      .empty { padding: 64px 0; text-align: center; color: #62625c; }
+      footer { border-top: 1px solid #d7d7d2; padding: 24px 0 40px; color: #777770; font-size: 13px; }
+      @media (max-width: 680px) { header { padding-top: 32px; } h1 { font-size: 30px; } article { grid-template-columns: 1fr; } .aside { display: flex; flex-wrap: wrap; gap: 8px 16px; } .aside p { margin: 0; } }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="shell">
+        <p class="eyebrow">Aurora 데일리 아카이브</p>
+        <h1>2026-07-15 AI 개발 뉴스</h1>
+        <p class="meta"><span>기사 10개</span><span>2026.07.15 23:20 Asia/Seoul 생성</span></p>
+      </div>
+    </header>
+    <main class="shell">
+          <article>
+            <div>
+              <p class="source">GitHub Changelog</p>
+              <h2><a href="https://github.blog/changelog/2026-07-14-github-copilot-in-visual-studio-june-update" target="_blank" rel="noopener noreferrer">Visual Studio의 GitHub Copilot — 6월 업데이트</a></h2>
+              <p class="summary">Visual Studio 2026의 GitHub Copilot에 사용량 기반 과금에 맞춘 실시간 사용량 추적과 한도·초과 사용 알림이 추가되었습니다. MCP 서버 변경 시 신뢰 대화 상자를 표시하는 검증 기능, C++용 modernization agent의 정식 출시, 활성 파일 전체로 확장된 다음 편집 제안, pull request를 Copilot Chat에 추가하는 기능, IDE 내 pull request 검토 및 완료 기능도 포함됩니다.</p>
+              <section class="detail">
+                <h3>왜 중요한가</h3>
+                <p>이번 업데이트는 AI 지원 개발에서 비용 가시성, MCP 도구 실행에 대한 신뢰 검증, 레거시 C++ 현대화, 코드 편집과 코드 리뷰의 통합을 강화합니다. 특히 Copilot Chat이 pull request와 MCP 서버 같은 개발 맥락 및 도구와 더 밀접하게 연결됩니다.</p>
+              </section>
+              <section class="detail">
+                <h3>개발자 영향</h3>
+                <p>개발자는 Visual Studio 안에서 Copilot 사용량과 초과 과금을 확인하고 알림 시점을 조정할 수 있습니다. 업데이트된 MCP 서버는 실행 전 검토와 승인이 필요하며, C++ 현대화는 Automated 또는 Guided 모드로 수행할 수 있습니다. 또한 pull request의 설명·변경 파일·댓글을 Copilot Chat의 맥락으로 사용하고 IDE에서 직접 검토할 수 있지만, 일부 기능은 Preview Features 설정이 필요합니다.</p>
+              </section>
+              <section class="detail">
+                <h3>권장 행동</h3>
+                <p>Visual Studio 2026에서 Copilot Usage와 MCP 서버 신뢰 대화 상자 설정을 확인한 뒤, 테스트 프로젝트에서 C++ modernization agent와 pull request 연동 기능을 검토해 보세요.</p>
+              </section>
+              <div class="keywords">
+<span class="keyword">github copilot</span><span class="keyword">visual studio</span><span class="keyword">mcp</span><span class="keyword">c++ modernization</span><span class="keyword">pull requests</span><span class="keyword">usage-based billing</span>              </div>
+            </div>
+            <aside class="aside">
+              <p><time datetime="2026-07-15T00:01:24Z">2026.07.15 09:01</time></p>
+              <p class="score">중요도 82</p>
+              <p>읽기 2분</p>
+              <a class="source-link" href="https://github.blog/changelog/2026-07-14-github-copilot-in-visual-studio-june-update" target="_blank" rel="noopener noreferrer">원문 읽기</a>
+            </aside>
+          </article>
+          <article>
+            <div>
+              <p class="source">Latent Space</p>
+              <h2><a href="https://www.latent.space/p/ainews-not-much-happened-today-c72" target="_blank" rel="noopener noreferrer">[AINews] 오늘은 별일이 많지 않았습니다</a></h2>
+              <p class="summary">이번 AINews 요약은 Codex와 ChatGPT Work 사용량 급증, 에이전트 harness와 관측성의 중요성 확대, 저비트 양자화를 통한 로컬 추론 발전, 실시간 멀티모달 모델과 월드 모델, 동적 웹 연구용 평가 벤치마크, 그리고 물리적 집단 지능 로봇 시스템의 동향을 다룹니다.</p>
+              <section class="detail">
+                <h3>왜 중요한가</h3>
+                <p>AI 기반 소프트웨어 개발의 경쟁력이 단순한 모델 성능에서 실행 환경, 도구 호출 추적, 평가 데이터, 장기 작업 안정성으로 이동하고 있음을 보여줍니다. 동시에 양자화된 오픈 모델은 에이전트 워크플로를 소비자용 GPU나 모바일 기기에서 실행할 가능성을 넓히고 있습니다.</p>
+              </section>
+              <section class="detail">
+                <h3>개발자 영향</h3>
+                <p>개발자는 장시간 실행되는 에이전트의 지침 관리와 tool call·subagent·token usage 관측성을 별도로 설계해야 합니다. 저장소를 여러 작업에 걸쳐 악화시키는지 측정하는 평가와 실제 웹 근거를 재검증하는 평가가 중요해지며, 로컬 배포에서는 모델 품질과 함께 메모리 사용량, 양자화 형식, 하드웨어 제약을 비교해야 합니다.</p>
+              </section>
+              <section class="detail">
+                <h3>권장 행동</h3>
+                <p>현재 사용 중인 코딩 에이전트에 대해 장기 작업 중단 여부, 도구 호출, 비용, 저장소 품질 변화를 기록하는 간단한 평가 절차를 먼저 구축해 보세요.</p>
+              </section>
+              <div class="keywords">
+<span class="keyword">coding agents</span><span class="keyword">agent harnesses</span><span class="keyword">observability</span><span class="keyword">quantization</span><span class="keyword">local inference</span><span class="keyword">multimodal models</span><span class="keyword">agent evaluation</span><span class="keyword">robotics</span>              </div>
+            </div>
+            <aside class="aside">
+              <p><time datetime="2026-07-14T23:54:07Z">2026.07.15 08:54</time></p>
+              <p class="score">중요도 86</p>
+              <p>읽기 12분</p>
+              <a class="source-link" href="https://www.latent.space/p/ainews-not-much-happened-today-c72" target="_blank" rel="noopener noreferrer">원문 읽기</a>
+            </aside>
+          </article>
+          <article>
+            <div>
+              <p class="source">GitHub Changelog</p>
+              <h2><a href="https://github.blog/changelog/2026-07-14-github-copilot-for-jetbrains-expands-byok-capabilities" target="_blank" rel="noopener noreferrer">GitHub Copilot for JetBrains, BYOK 기능 확장</a></h2>
+              <p class="summary">GitHub Copilot for JetBrains가 OpenAI 호환 custom endpoint와 API key를 이용해 자체 모델을 연결하는 BYOK 설정을 지원하도록 확장되었습니다. 또한 plugin 관리, Claude agent provider 기반 custom agents·skills·instructions, local sandboxing, Copilot CLI의 내장 debugger skill이 추가되었으며, 일부 기능은 public preview입니다.</p>
+              <section class="detail">
+                <h3>왜 중요한가</h3>
+                <p>개발팀이 JetBrains IDE 안에서 모델 제공자와 endpoint를 직접 선택하고, 팀별 plugin과 agent 설정을 구성할 수 있어 AI 지원 개발 환경을 조직의 요구에 맞게 조정하기 쉬워집니다. 특히 기존 모델 인프라나 자체 모델을 활용하려는 팀의 선택지가 넓어집니다.</p>
+              </section>
+              <section class="detail">
+                <h3>개발자 영향</h3>
+                <p>개발자는 IDE를 벗어나지 않고 custom endpoint, provider, plugin, sandbox 설정을 관리할 수 있습니다. 다만 Claude agent provider, local sandboxing, Copilot CLI debugger skill은 public preview이므로 안정성이나 정책 동작을 검토한 뒤 제한된 팀과 워크플로에서 적용하는 편이 적절합니다. Copilot CLI 정책 처리 변경으로 JetBrains IDE의 Copilot CLI provider 동작도 기존 정책과 다를 수 있습니다.</p>
+              </section>
+              <section class="detail">
+                <h3>권장 행동</h3>
+                <p>최신 GitHub Copilot plugin을 테스트 환경의 JetBrains IDE에 설치하고, 사용 중인 provider·custom endpoint·sandbox 정책과 public preview 기능의 동작을 소규모 워크플로에서 확인해 보세요.</p>
+              </section>
+              <div class="keywords">
+<span class="keyword">github copilot</span><span class="keyword">jetbrains</span><span class="keyword">byok</span><span class="keyword">custom endpoint</span><span class="keyword">claude agent</span><span class="keyword">local sandboxing</span><span class="keyword">copilot cli</span><span class="keyword">debugger skill</span>              </div>
+            </div>
+            <aside class="aside">
+              <p><time datetime="2026-07-14T23:37:29Z">2026.07.15 08:37</time></p>
+              <p class="score">중요도 78</p>
+              <p>읽기 3분</p>
+              <a class="source-link" href="https://github.blog/changelog/2026-07-14-github-copilot-for-jetbrains-expands-byok-capabilities" target="_blank" rel="noopener noreferrer">원문 읽기</a>
+            </aside>
+          </article>
+          <article>
+            <div>
+              <p class="source">Latent Space</p>
+              <h2><a href="https://www.latent.space/p/aiewf26trends" target="_blank" rel="noopener noreferrer">2026 World’s Fair에서 AI 엔지니어링을 정의한 5가지 트렌드</a></h2>
+              <p class="summary">AI Engineer World’s Fair 2026의 논의를 바탕으로 AI 엔지니어링이 개별 에이전트와 프롬프트 설계에서 벗어나, harness engineering, loop engineering, context 관리, 평가, 권한 제어, 지속적 개선을 포함한 시스템 설계로 확장됐다고 정리한다. 주요 흐름은 에이전트 주변 시스템의 중요성 확대, 인간이 outer loop에서 감독하는 구조, enterprise 도입과 Forward Deployed Engineer 역할의 부상, coding agents의 새로운 개발자 인터페이스화, 그리고 재사용 가능한 agent skills 중심의 플랫폼 구축이다.</p>
+              <section class="detail">
+                <h3>왜 중요한가</h3>
+                <p>AI-assisted software development의 핵심 경쟁력이 더 강한 모델 하나를 선택하는 데서 안정적으로 실행·평가·감독할 수 있는 개발 시스템을 만드는 일로 이동하고 있음을 보여준다. 이는 AI 도구를 실험하는 단계를 넘어 실제 코드베이스와 조직 업무에 통합하려는 팀이 고려해야 할 공통 설계 원칙을 제시한다.</p>
+              </section>
+              <section class="detail">
+                <h3>개발자 영향</h3>
+                <p>개발자는 Claude Code, Codex, Gemini CLI, Cursor 같은 coding agents에 단순히 코드를 요청하기보다 저장소 탐색, 다중 파일 수정, 테스트 실행, 디버깅, 권한, 샌드박스, 장기 실행 작업을 포함한 harness를 설계해야 한다. 또한 inner loop의 자동화 범위와 outer loop의 인간 검토 지점을 정하고, 조직 데이터의 context 흐름과 agent skills의 유지보수 비용을 관리해야 한다. 자동화 수준이 높아질수록 예측 가능성, 평가 품질, 고위험 변경에 대한 사람의 승인 사이에서 trade-off가 커진다.</p>
+              </section>
+              <section class="detail">
+                <h3>권장 행동</h3>
+                <p>현재 사용 중인 coding agent 하나를 대상으로 반복 가능한 workflow와 품질 기준을 작은 agent skill 또는 명시적 문서로 정리하고, 테스트·평가·인간 승인 지점을 포함한 제한된 파일럿을 운영해 보라.</p>
+              </section>
+              <div class="keywords">
+<span class="keyword">agent engineering</span><span class="keyword">harness engineering</span><span class="keyword">coding agents</span><span class="keyword">loop engineering</span><span class="keyword">context engineering</span><span class="keyword">agent skills</span><span class="keyword">software factory</span><span class="keyword">evaluation</span>              </div>
+            </div>
+            <aside class="aside">
+              <p><time datetime="2026-07-14T23:21:21Z">2026.07.15 08:21</time></p>
+              <p class="score">중요도 86</p>
+              <p>읽기 15분</p>
+              <a class="source-link" href="https://www.latent.space/p/aiewf26trends" target="_blank" rel="noopener noreferrer">원문 읽기</a>
+            </aside>
+          </article>
+          <article>
+            <div>
+              <p class="source">Simon Willison&#39;s Weblog</p>
+              <h2><a href="https://simonwillison.net/2026/Jul/14/github-changeling/" target="_blank" rel="noopener noreferrer">Dependabot이 의존성 업데이트 PR을 열기 전 3일 대기</a></h2>
+              <p class="summary">Dependabot은 이제 패키지 레지스트리에 새 릴리스가 게시된 후 최소 3일이 지나야 버전 업데이트 pull request를 엽니다. 이 cooldown은 기본값으로 적용되며 별도 설정이 필요하지 않습니다.</p>
+              <section class="detail">
+                <h3>왜 중요한가</h3>
+                <p>새 의존성 릴리스 직후 발생할 수 있는 문제를 일정 기간 관찰한 뒤 업데이트할 수 있어, 자동화된 의존성 관리와 보안 업데이트 사이의 균형에 영향을 줍니다.</p>
+              </section>
+              <section class="detail">
+                <h3>개발자 영향</h3>
+                <p>의존성 업데이트 PR이 릴리스 직후가 아니라 최소 3일 후에 생성되므로 최신 버전 반영이 늦어질 수 있습니다. 반면 안정성이 확인될 시간을 확보하며, 별도 구성 없이 모든 기본 동작에 적용됩니다.</p>
+              </section>
+              <section class="detail">
+                <h3>권장 행동</h3>
+                <p>Dependabot을 사용하는 저장소에서 업데이트 PR 생성 지연이 현재의 릴리스 및 보안 대응 절차와 맞는지 확인하세요.</p>
+              </section>
+              <div class="keywords">
+<span class="keyword">dependency-cooldowns</span><span class="keyword">packaging</span><span class="keyword">security</span><span class="keyword">github</span>              </div>
+            </div>
+            <aside class="aside">
+              <p><time datetime="2026-07-14T22:43:35Z">2026.07.15 07:43</time></p>
+              <p class="score">중요도 62</p>
+              <p>읽기 1분</p>
+              <a class="source-link" href="https://simonwillison.net/2026/Jul/14/github-changeling/" target="_blank" rel="noopener noreferrer">원문 읽기</a>
+            </aside>
+          </article>
+          <article>
+            <div>
+              <p class="source">Simon Willison&#39;s Weblog</p>
+              <h2><a href="https://simonwillison.net/2026/Jul/14/pedalican/" target="_blank" rel="noopener noreferrer">simonw/pedalican: Codex Desktop용 커스텀 펫 만들기</a></h2>
+              <p class="summary">작성자는 Codex Desktop에서 작업 진행 상황을 보여 주는 애니메이션 펫을 발견한 뒤, GPT-5.6 Sol과 gpt-image-2를 사용해 자전거를 타는 펠리컨 펫 ‘Pedalican’을 제작했다. 여러 차례 이미지 생성으로 스프라이트와 애니메이션 루프를 만들었으며, 관련 생성 이미지와 스프라이트 시트, GIF를 GitHub에 공개했다. 구현에 사용된 hatch-pet과 imagegen skill은 Apache 2.0 라이선스로 공개되어 있다.</p>
+              <section class="detail">
+                <h3>왜 중요한가</h3>
+                <p>텍스트 설명만으로 게임이나 데스크톱 인터페이스에 사용할 수 있는 캐릭터 스프라이트와 애니메이션 자산을 생성하는 과정을 보여 준다. 특히 이미지 생성 모델을 단순한 일회성 이미지 제작이 아니라 반복 가능한 에셋 제작 워크플로에 연결한 사례라는 점에서 AI-assisted development와 관련이 있다.</p>
+              </section>
+              <section class="detail">
+                <h3>개발자 영향</h3>
+                <p>개발자는 캐릭터 참조 이미지, 개별 프레임, 스프라이트 시트를 여러 생성 단계로 만들 수 있다. 다만 일관된 캐릭터 형태와 애니메이션 품질을 유지하려면 프롬프트 구조, 중간 산출물 기록, 후처리 및 검증이 필요하며, 생성 모델의 결과에만 의존하지 않는 작업 흐름이 요구된다.</p>
+              </section>
+              <section class="detail">
+                <h3>권장 행동</h3>
+                <p>hatch-pet과 imagegen의 공개 구현을 살펴보고, 작은 테스트 캐릭터 하나를 대상으로 참조 이미지부터 애니메이션 GIF까지 생성 과정을 재현해 보라.</p>
+              </section>
+              <div class="keywords">
+<span class="keyword">ai</span><span class="keyword">prompt-engineering</span><span class="keyword">generative-ai</span><span class="keyword">llms</span><span class="keyword">text-to-image</span><span class="keyword">sprite-generation</span><span class="keyword">codex</span>              </div>
+            </div>
+            <aside class="aside">
+              <p><time datetime="2026-07-14T22:29:45Z">2026.07.15 07:29</time></p>
+              <p class="score">중요도 58</p>
+              <p>읽기 2분</p>
+              <a class="source-link" href="https://simonwillison.net/2026/Jul/14/pedalican/" target="_blank" rel="noopener noreferrer">원문 읽기</a>
+            </aside>
+          </article>
+          <article>
+            <div>
+              <p class="source">Simon Willison&#39;s Weblog</p>
+              <h2><a href="https://simonwillison.net/2026/Jul/14/lobsters-sqlite/" target="_blank" rel="noopener noreferrer">lobste.rs가 이제 SQLite로 운영됩니다</a></h2>
+              <p class="summary">커뮤니티 사이트 Lobsters가 MariaDB에서 SQLite로의 이전을 완료하고, Rails 애플리케이션을 단일 VPS에서 운영하기 시작했다. 기본 콘텐츠 데이터베이스는 약 3.8GB이며, 캐시·큐·Rack::Attack용 데이터베이스도 별도 SQLite 파일로 구성된다. 운영 측은 CPU와 메모리 사용량이 줄고 사이트 반응성이 개선됐으며, 기존 MariaDB VPS를 종료하면 VPS 비용이 절반으로 감소할 것으로 보고 있다.</p>
+              <section class="detail">
+                <h3>왜 중요한가</h3>
+                <p>대규모 분산 데이터베이스가 항상 필요한 것은 아니며, 단일 서버와 SQLite만으로도 실제 커뮤니티 서비스를 운영할 수 있음을 보여주는 사례다. 특히 Rails 애플리케이션에서 데이터 규모, 트래픽 패턴, 운영 복잡성을 고려해 데이터베이스 선택을 재검토할 근거를 제공한다.</p>
+              </section>
+              <section class="detail">
+                <h3>개발자 영향</h3>
+                <p>SQLite로 전환하면 데이터베이스 운영 구성요소와 서버 비용을 줄일 수 있지만, 애플리케이션 구조와 마이그레이션 절차를 함께 조정해야 한다. Lobsters 사례에서는 콘텐츠, 캐시, 큐, 요청 차단 데이터를 별도 SQLite 파일로 나누었으며, 실제 적용 가능성은 트래픽 특성, 동시성 요구사항, 장애 대응 방식에 따라 달라진다.</p>
+              </section>
+              <section class="detail">
+                <h3>권장 행동</h3>
+                <p>운영 중인 Rails 서비스의 실제 CPU·메모리·데이터베이스 사용 패턴을 점검한 뒤, 트래픽과 동시성 요구가 맞는 비핵심 환경에서 SQLite 구성을 소규모로 검증해 보라.</p>
+              </section>
+              <div class="keywords">
+<span class="keyword">migrations</span><span class="keyword">ops</span><span class="keyword">rails</span><span class="keyword">sqlite</span><span class="keyword">database architecture</span>              </div>
+            </div>
+            <aside class="aside">
+              <p><time datetime="2026-07-14T19:44:11Z">2026.07.15 04:44</time></p>
+              <p class="score">중요도 72</p>
+              <p>읽기 2분</p>
+              <a class="source-link" href="https://simonwillison.net/2026/Jul/14/lobsters-sqlite/" target="_blank" rel="noopener noreferrer">원문 읽기</a>
+            </aside>
+          </article>
+          <article>
+            <div>
+              <p class="source">GitHub Changelog</p>
+              <h2><a href="https://github.blog/changelog/2026-07-14-code-scanning-shows-ai-security-detections-on-pull-requests" target="_blank" rel="noopener noreferrer">Code scanning이 pull request에서 AI 보안 탐지 결과를 표시</a></h2>
+              <p class="summary">GitHub Code scanning이 pull request에 AI 기반 보안 탐지 결과를 직접 표시하는 public preview를 시작했습니다. 이 기능은 CodeQL이 기본적으로 지원하지 않는 언어와 framework까지 탐지 범위를 넓히며, 결과에는 AI 라벨이 붙습니다.</p>
+              <section class="detail">
+                <h3>왜 중요한가</h3>
+                <p>기존 CodeQL 분석 범위 밖에 있던 코드에서도 병합 전에 잠재적인 보안 문제를 확인할 수 있어, 저장소의 보안 탐지 사각지대를 줄이는 데 도움이 됩니다.</p>
+              </section>
+              <section class="detail">
+                <h3>개발자 영향</h3>
+                <p>탐지 결과가 pull request에 표시되므로 개발자는 기존 리뷰 흐름에서 문제를 검토할 수 있습니다. 다만 결과는 정보 제공용이라 merge를 차단하지 않으며, Enterprise 정책 허용, 조직 수준 활성화, 저장소의 CodeQL default setup이 필요합니다. Public preview 기간에는 GitHub Copilot 라이선스와 조직의 AI credits가 요구됩니다.</p>
+              </section>
+              <section class="detail">
+                <h3>권장 행동</h3>
+                <p>CodeQL default setup을 사용하는 테스트 저장소에서 Enterprise 정책과 AI credits 사용 조건을 확인한 뒤 AI security detections를 활성화하고, 탐지 결과의 정확도와 리뷰 흐름 영향을 평가해 보세요.</p>
+              </section>
+              <div class="keywords">
+<span class="keyword">code scanning</span><span class="keyword">ai security</span><span class="keyword">codeql</span><span class="keyword">pull requests</span><span class="keyword">github advanced security</span><span class="keyword">ai credits</span>              </div>
+            </div>
+            <aside class="aside">
+              <p><time datetime="2026-07-14T19:12:48Z">2026.07.15 04:12</time></p>
+              <p class="score">중요도 78</p>
+              <p>읽기 2분</p>
+              <a class="source-link" href="https://github.blog/changelog/2026-07-14-code-scanning-shows-ai-security-detections-on-pull-requests" target="_blank" rel="noopener noreferrer">원문 읽기</a>
+            </aside>
+          </article>
+          <article>
+            <div>
+              <p class="source">Simon Willison&#39;s Weblog</p>
+              <h2><a href="https://simonwillison.net/2026/Jul/14/armin-ronacher/" target="_blank" rel="noopener noreferrer">Armin Ronacher의 말을 인용하며</a></h2>
+              <p class="summary">Armin Ronacher는 소프트웨어 프로젝트의 공통 언어가 영어·Python 같은 도구가 아니라, 개념의 의미와 경계, 중요한 불변식, 소유권, 시스템 구조에 대한 공동의 이해라고 설명한다. 그는 이러한 이해가 문서와 코드뿐 아니라 코드 리뷰와 대화, 논쟁, 변경 사항을 설명하는 과정에도 존재하며, coding agents 이전의 작업 마찰이 사람들 사이의 이해를 동기화하는 역할도 했다고 말한다.</p>
+              <section class="detail">
+                <h3>왜 중요한가</h3>
+                <p>AI coding agents가 코드 변경을 빠르게 수행할수록, 팀의 암묵적인 설계 지식과 합의가 충분히 공유되지 않은 상태에서 변경이 진행될 수 있다. 이 글은 생산성 향상만이 아니라 에이전트가 이해해야 할 공통 맥락을 어떻게 유지할지 고민해야 함을 보여준다.</p>
+              </section>
+              <section class="detail">
+                <h3>개발자 영향</h3>
+                <p>에이전트 사용은 코드 탐색과 변경에 필요한 대화를 줄일 수 있지만, 그 과정에서 시스템의 경계와 책임, 불변식에 대한 팀의 이해를 맞추는 기회도 줄일 수 있다. 따라서 문서화, 명확한 코드 리뷰, 변경 이유와 설계 제약의 공유가 에이전트 기반 워크플로에서 더 중요해질 수 있다.</p>
+              </section>
+              <section class="detail">
+                <h3>권장 행동</h3>
+                <p>에이전트가 자주 변경하는 영역의 핵심 개념, 소유권, 불변식, 설계 이유를 짧은 문서와 코드 리뷰 기준으로 정리해 팀의 공통 이해를 확인하라.</p>
+              </section>
+              <div class="keywords">
+<span class="keyword">ai</span><span class="keyword">software-engineering</span><span class="keyword">llms</span><span class="keyword">coding-agents</span><span class="keyword">ai-assisted-programming</span><span class="keyword">agentic-engineering</span>              </div>
+            </div>
+            <aside class="aside">
+              <p><time datetime="2026-07-14T18:04:23Z">2026.07.15 03:04</time></p>
+              <p class="score">중요도 72</p>
+              <p>읽기 1분</p>
+              <a class="source-link" href="https://simonwillison.net/2026/Jul/14/armin-ronacher/" target="_blank" rel="noopener noreferrer">원문 읽기</a>
+            </aside>
+          </article>
+          <article>
+            <div>
+              <p class="source">GitHub Changelog</p>
+              <h2><a href="https://github.blog/changelog/2026-07-14-dependabot-version-updates-introduce-default-package-cooldown" target="_blank" rel="noopener noreferrer">Dependabot 버전 업데이트에 기본 패키지 쿨다운 도입</a></h2>
+              <p class="summary">Dependabot이 이제 새 릴리스가 레지스트리에 게시된 후 최소 3일이 지나야 버전 업데이트 pull request를 엽니다. 이 쿨다운은 별도 설정 없이 기본 적용되며, 보안 업데이트에는 적용되지 않아 보안 수정은 즉시 열립니다. 사용자는 .github/dependabot.yml에서 기간을 변경하거나 기능을 완전히 해제할 수 있습니다.</p>
+              <section class="detail">
+                <h3>왜 중요한가</h3>
+                <p>새 dependency 릴리스에 악성 코드나 결함이 포함되어도 즉시 업데이트되지 않으므로, 공급망 공격이나 문제 릴리스의 신호가 드러날 시간을 확보할 수 있습니다. 동시에 긴급한 보안 패치는 지연되지 않습니다.</p>
+              </section>
+              <section class="detail">
+                <h3>개발자 영향</h3>
+                <p>Dependabot version updates의 pull request 생성이 기본적으로 최대 3일 늦어져 자동 dependency 업데이트와 최신 버전 반영 속도 사이에 새로운 절충점이 생깁니다. 팀은 .github/dependabot.yml에서 프로젝트의 위험 허용 수준에 맞춰 대기 기간을 조정하거나 해제해야 할 수 있습니다.</p>
+              </section>
+              <section class="detail">
+                <h3>권장 행동</h3>
+                <p>현재 dependency 업데이트 정책을 검토하고, 필요하다면 .github/dependabot.yml의 cooldown 설정을 팀의 릴리스 검증 절차에 맞게 조정하세요.</p>
+              </section>
+              <div class="keywords">
+<span class="keyword">dependabot</span><span class="keyword">dependency updates</span><span class="keyword">supply chain security</span><span class="keyword">github</span><span class="keyword">security updates</span>              </div>
+            </div>
+            <aside class="aside">
+              <p><time datetime="2026-07-14T16:42:59Z">2026.07.15 01:42</time></p>
+              <p class="score">중요도 72</p>
+              <p>읽기 1분</p>
+              <a class="source-link" href="https://github.blog/changelog/2026-07-14-dependabot-version-updates-introduce-default-package-cooldown" target="_blank" rel="noopener noreferrer">원문 읽기</a>
+            </aside>
+          </article>
+    </main>
+    <footer><div class="shell">Project Aurora가 수집하고 요약한 AI 개발 인텔리전스입니다.</div></footer>
+  </body>
+</html>
